@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        Here is The Modal
       </Button>
       <Modal size="lg" show={show} onHide={handleClose} animation={true}>
         <Modal.Header closeButton>
